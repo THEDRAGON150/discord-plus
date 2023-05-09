@@ -10,7 +10,6 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans:wght@100;300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vina+Sans:wght@100;300;400;500;700&display=swap');
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
@@ -54,7 +53,7 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
-  --home-icon: url('https://external-preview.redd.it/pKTM6tjP4Y_CGFwm6NceX1oOZzT4s0UGEcr1UBuevro.jpg?auto=webp&s=ee8c88aca8f51b712b0031534c58150b237f5a3a');
+  --home-icon: url('https://i.imgur.com/g5dRm2e.png');
   --home-position: center;
   --home-size: 40px;
   --channel-unread: var(--main-color);
