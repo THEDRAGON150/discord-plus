@@ -9,6 +9,8 @@
  * @BDEditor Clear Vision
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans:wght@100;300;400;500;700&display=swap');
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
@@ -63,8 +65,8 @@
   --dnd-color: #000000;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: gg sans;
-  --code-font: Consolas;
+  --main-font: Vina Sans;
+  --code-font: Vina Sans;
   --channels-width: 220px;
   --members-width: 240px;
   --backdrop-overlay: rgba(0,0,0,0.8);
