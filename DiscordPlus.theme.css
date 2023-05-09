@@ -1,75 +1,90 @@
- 󠁛󠀣󠀹󠀱󠀹󠀰󠀹󠀰󠀬󠀣󠀱󠀰󠀶󠀶󠁡󠀳󠁝/**
- * @name Fur_Friends
- * @author NFLD99
- * @version ersion auto updates
- * @description Thank you for choosing NFLD Inc!
- * @source https://github.com/NFLD99/Better-Discord
- * @website https://nfld99.com/
- * @patreon https://nfld99.com/patreon
- * @authorLink https://discordhub.com/profile/483413721876529174
- * @donate https://nfld99.com/paypal
- * @authorId 483413721876529174
- * @invite zqRpUyepHh
+/**
+ * @name Sledgy :3
+ * @author ClearVision Team
+ * @version 6.3.0
+ * @description Highly customizable and beautiful theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite 7pNUC9C
+ * @BDEditor Clear Vision
 */
-/* Source Code */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
-/* Animations */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Animations/No.css);
-/* Fonts https://nfld99.github.io/Better-Discord/Font_List.txt */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/No.css);
-/* Settings Dock */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Popup/Yes.css);
-/* Channels */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Channels/No.css);
-/* Chat Title Bar */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Chat_Title_Bar/No.css);
-/* Invites */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Invites/No.css);
-/* Member List */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Members/No.css);
-/* Windows Bar */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Windows_Bar/No.css);
-/* Offline Members */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Offline/No.css);
-/* User Popout Footer */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Hide/Popout_Footer/Yes.css);
-/* Transparency Patch */ 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Transparency/No.css);
-/* Use Chat Bubbles By Shiz */
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Chat_Bubbles/No.css);
+
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+
 :root {
-  --Main-Colour: rgba(102,174,181,1);
-  --Background-Colour: rgba(0,0,0,1);
-  --Secondary-Background-Colour: rgba(0,0,0,.3);
-  --Secondary-Main-Colour: rgba(102,174,181,.5);
-  --Text-Shadow-Colour: rgba(0,0,0,.65);
-  --Scroller-Colour: rgba(102,174,181,0);
-  --Notification-Colour: rgba(102,174,181,1);
-  --Chat-Input-Background: rgba(0,0,0,0);
-  --Chat-Input-Colour: var(--Main-Colour) ;
-  --Unread-Message-1: var(--Main-Colour) ;
-  --Unread-Message-2: var(--Background-Colour) ;
-  --Chat-Background: url(https://nfld99.com/Bkg/iYoXwU1.png);
-  --Settings-Background: url(https://nfld99.com/Bkg/iYoXwU1.png);
-  --Callout-Background: url(https://nfld99.com/Bkg/iYoXwU1.png);
-  --Title-Background: var(--Background-Colour);
-  --Theme-Variant: " Fur Friends";
-  --Chat-Font-Used: "Whitney";
-  --Chat-Font-Size: 15px;
-  --Unread-Message-Speed: 1.5s;
-  --Popout-Main-Colour: var(--Main-Colour);
-  --Popout-Background: var(--Chat-Background);
-  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
-  --Emote-Popout-Background: var(--Secondary-Background-Colour);
-  --load1: "Thank You!";
-  --load2: "Please Enjoy!";
-  --load3: "➢NFLD99";
-  --File-Updated-2020-5-24: ;
-  --Settings-Dock-Colour: var(--Main-Colour);
-  --Timestamp-Colour: var(--Secondary-Main-Colour);
-  --Guild-Columns: 2;
-  --ServerFolders-Guild-Columns: var(--Guild-Columns);
-  --Chat-Avatar-Border-Radius: 10%;
-  --Background-Darkness: 0.5;
+  --main-color: #9C27B0;
+  --hover-color: #1e63b3;
+  --success-color: #43b581;
+  --danger-color: #982929;
+  --url-color: var(--main-color);
+  --background-image: url('https://preview.redd.it/jj1dtj6ghfl91.png?width=341&format=png&auto=webp&s=d0d6fb2be7aedba7f9311c0adcd568090ae6ed62');
+  --background-shading: 100%;
+  --background-position: top center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 97%;
+  --background-contrast: 100%;
+  --background-saturation: 203%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
+  --user-popout-image: url('https://cdna.artstation.com/p/assets/images/images/054/402/682/large/fischcake-sledge-queen.jpg?1664454823');
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 3px;
+  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 3px;
+  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-position: center;
+  --home-size: 40px;
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(255,255,255,0.3);
+  --muted-color: rgba(255,255,255,0.1);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: gg sans;
+  --code-font: Consolas;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
 }
+
+/* Any custom CSS below here */
+
 
