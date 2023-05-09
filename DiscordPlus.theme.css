@@ -41,7 +41,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-modal-image: url('https://cdna.artstation.com/p/assets/images/images/054/402/682/large/fischcake-sledge-queen.jpg?1664454823');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -52,15 +52,15 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
-  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-icon: url('https://external-preview.redd.it/pKTM6tjP4Y_CGFwm6NceX1oOZzT4s0UGEcr1UBuevro.jpg?auto=webp&s=ee8c88aca8f51b712b0031534c58150b237f5a3a');
   --home-position: center;
   --home-size: 40px;
   --channel-unread: var(--main-color);
   --channel-color: rgba(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
-  --online-color: #43b581;
-  --idle-color: #faa61a;
-  --dnd-color: #982929;
+  --online-color: #FF0000;
+  --idle-color: #FFEB3E;
+  --dnd-color: #000000;
   --streaming-color: #593695;
   --offline-color: #808080;
   --main-font: gg sans;
