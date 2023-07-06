@@ -1,5 +1,5 @@
 /**
- * @name funny theme :3
+ * @name Funni DW theme
  * @author ClearVision Team
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
@@ -9,6 +9,7 @@
  * @BDEditor Clear Vision
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@100;300;400;500;700&display=swap');
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
@@ -52,18 +53,18 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 0px;
-  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-icon: url('https://i.imgur.com/mGX9G95.png');
   --home-position: center;
   --home-size: 40px;
   --channel-unread: #E91E63;
   --channel-color: rgb(255,255,255,0.3);
   --muted-color: rgb(255,0,0,1);
-  --online-color: #8BC34A;
-  --idle-color: #FFEB3B;
-  --dnd-color: #7F7F7F;
-  --streaming-color: #5E00FF;
-  --offline-color: #000000;
-  --main-font: gg sans;
+  --online-color: #FF0000;
+  --idle-color: #1800FD;
+  --dnd-color: #000000;
+  --streaming-color: #00FF0D;
+  --offline-color: #4F0000;
+  --main-font: Chakra Petch;
   --code-font: Consolas;
   --channels-width: 220px;
   --members-width: 240px;
